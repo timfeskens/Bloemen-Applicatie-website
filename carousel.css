@@ -1,0 +1,432 @@
+/*------------------------------------
+- COLOR primary
+------------------------------------*/
+.alert-primary {
+  color: #1e2720;
+  background-color: #becdc1;
+  border-color: #b3c4b6;
+}
+
+  .alert-primary hr {
+      border-top-color: #a5b9a9;
+  }
+
+  .alert-primary .alert-link {
+      color: #080a08;
+  }
+
+.badge-primary {
+  color: #fff;
+  background-color: #546C59;
+}
+
+  .badge-primary[href]:hover, .badge-primary[href]:focus {
+      color: #fff;
+      background-color: #3d4f41;
+  }
+
+.bg-primary {
+  background-color: #546C59 !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #3d4f41 !important;
+}
+
+.border-primary {
+  border-color: #546C59 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #546C59;
+  border-color: #546C59;
+}
+
+  .btn-primary:hover {
+      color: #fff;
+      background-color: #445748;
+      border-color: #3d4f41;
+  }
+
+  .btn-primary:focus, .btn-primary.focus {
+      box-shadow: 0 0 0 0.2rem rgba(84, 108, 89, 0.5);
+  }
+
+  .btn-primary.disabled, .btn-primary:disabled {
+      color: #fff;
+      background-color: #546C59;
+      border-color: #546C59;
+  }
+
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+      color: #fff;
+      background-color: #3d4f41;
+      border-color: #36463a;
+  }
+
+      .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+          box-shadow: 0 0 0 0.2rem rgba(84, 108, 89, 0.5);
+      }
+
+.btn-outline-primary {
+  color: #546C59;
+  background-color: transparent;
+  border-color: #546C59;
+}
+
+  .btn-outline-primary:hover {
+      color: #fff;
+      background-color: #546C59;
+      border-color: #546C59;
+  }
+
+  .btn-outline-primary:focus, .btn-outline-primary.focus {
+      box-shadow: 0 0 0 0.2rem rgba(84, 108, 89, 0.5);
+  }
+
+  .btn-outline-primary.disabled, .btn-outline-primary:disabled {
+      color: #546C59;
+      background-color: transparent;
+  }
+
+  .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+      color: #fff;
+      background-color: #546C59;
+      border-color: #546C59;
+  }
+
+      .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+          box-shadow: 0 0 0 0.2rem rgba(84, 108, 89, 0.5);
+      }
+
+.list-group-item-primary {
+  color: #1e2720;
+  background-color: #b3c4b6;
+}
+
+  .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
+      color: #1e2720;
+      background-color: #a5b9a9;
+  }
+
+  .list-group-item-primary.list-group-item-action.active {
+      color: #fff;
+      background-color: #1e2720;
+      border-color: #1e2720;
+  }
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: #b3c4b6;
+}
+
+.table-hover .table-primary:hover {
+  background-color: #a5b9a9;
+}
+
+  .table-hover .table-primary:hover > td,
+  .table-hover .table-primary:hover > th {
+      background-color: #a5b9a9;
+  }
+
+.text-primary {
+  color: #546C59 !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #3d4f41 !important;
+}
+
+
+/*------------------------------------
+- COLOR secondary
+------------------------------------*/
+.alert-secondary {
+  color: #ca6020;
+  background-color: #10611d12b;
+  border-color: #103111119;
+}
+
+  .alert-secondary hr {
+      border-top-color: #ff102103;
+  }
+
+  .alert-secondary .alert-link {
+      color: #9e4b19;
+  }
+
+.badge-secondary {
+  color: #212529;
+  background-color: #EAA57B;
+}
+
+  .badge-secondary[href]:hover, .badge-secondary[href]:focus {
+      color: #212529;
+      background-color: #e3874f;
+  }
+
+.bg-secondary {
+  background-color: #EAA57B !important;
+}
+
+a.bg-secondary:hover, a.bg-secondary:focus,
+button.bg-secondary:hover,
+button.bg-secondary:focus {
+  background-color: #e3874f !important;
+}
+
+.border-secondary {
+  border-color: #EAA57B !important;
+}
+
+.btn-secondary {
+  color: #FFFFFF;
+  background-color: #EAA57B;
+  border-color: #EAA57B;
+}
+
+  .btn-secondary:hover {
+      color: #FFFFFF;
+      background-color: #e5905c;
+      border-color: #e3874f;
+  }
+
+  .btn-secondary:focus, .btn-secondary.focus {
+      box-shadow: 0 0 0 0.2rem rgba(234, 165, 123, 0.5);
+  }
+
+  .btn-secondary.disabled, .btn-secondary:disabled {
+      color: #FFFFFF;
+      background-color: #EAA57B;
+      border-color: #EAA57B;
+  }
+
+  .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+      color: #FFFFFF;
+      background-color: #e3874f;
+      border-color: #e07e41;
+  }
+
+      .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+          box-shadow: 0 0 0 0.2rem rgba(234, 165, 123, 0.5);
+      }
+
+.btn-outline-secondary {
+  color: #FFFFFF;
+  background-color: transparent;
+  border-color: #EAA57B;
+}
+
+  .btn-outline-secondary:hover {
+      color: #FFFFFF;
+      background-color: #EAA57B;
+      border-color: #EAA57B;
+  }
+
+  .btn-outline-secondary:focus, .btn-outline-secondary.focus {
+      box-shadow: 0 0 0 0.2rem rgba(234, 165, 123, 0.5);
+  }
+
+  .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
+      color: #FFFFFF;
+      background-color: transparent;
+  }
+
+  .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle {
+      color: #FFFFFF;
+      background-color: #EAA57B;
+      border-color: #EAA57B;
+  }
+
+      .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary.dropdown-toggle:focus {
+          box-shadow: 0 0 0 0.2rem rgba(234, 165, 123, 0.5);
+      }
+
+.list-group-item-secondary {
+  color: #ca6020;
+  background-color: #103111119;
+}
+
+  .list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {
+      color: #ca6020;
+      background-color: #ff102103;
+  }
+
+  .list-group-item-secondary.list-group-item-action.active {
+      color: #212529;
+      background-color: #ca6020;
+      border-color: #ca6020;
+  }
+
+.table-secondary,
+.table-secondary > th,
+.table-secondary > td {
+  background-color: #103111119;
+}
+
+.table-hover .table-secondary:hover {
+  background-color: #ff102103;
+}
+
+  .table-hover .table-secondary:hover > td,
+  .table-hover .table-secondary:hover > th {
+      background-color: #ff102103;
+  }
+
+.text-secondary {
+  color: #EAA57B !important;
+}
+
+a.text-secondary:hover, a.text-secondary:focus {
+  color: #e3874f !important;
+}
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  border-radius: 16px;
+}
+
+nav {
+  transition: 0.4s;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  top: 14rem;
+  z-index: 10;
+  color: #000;
+}
+
+.carousel-caption > h1 {
+  color: #546C59;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #fff;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.left-side-icon {
+  float: left;
+}
+
+.right-side-text {
+  padding-left: 60px;
+}
+
+/* Numbers
+------------------------- */
+
+.numbers {
+  background: linear-gradient(0deg, rgba(255,255,255, 0.4), rgba(255,255,255, 0.4)), url('./img/bg-2-min.jpg') no-repeat center center fixed;
+}
+
+.card {
+  border-radius: 0px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.25);
+}
+
+/* Featurettes
+------------------------- */
+.featurette {
+  padding-top: 4rem;
+}
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* Numbers
+------------------------- */
+
+.signup {
+  background: linear-gradient(0deg, rgba(255,255,255, 0.4), rgba(255,255,255, 0.4)), url('./img/bg-1-min.jpg') no-repeat center center fixed;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+
+@media (max-width: 40em) {
+  h1 {
+    font-size:20px;
+  }
+  h2 {
+    font-size:x-large;
+  }
+  h3 {
+    font-size:medium;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+}
