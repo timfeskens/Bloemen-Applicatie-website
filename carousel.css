@@ -292,6 +292,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
 a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
@@ -314,6 +322,15 @@ nav {
   height: 100vh;
   
 }
+
+.logo-sentence--carousel {
+  max-height: 4rem;
+  width: auto;
+  -webkit-filter: drop-shadow(0 0 8px #000);
+  filter: drop-shadow(2px 2px 3px #000);
+  margin-bottom: 1rem;
+}
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   top: calc(100vh / 2 - 5rem);
@@ -322,13 +339,14 @@ nav {
 }
 
 .carousel-caption > h1 {
-  color: #546C59;
+  color: #FFF;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 100vh;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .carousel-item > img {
@@ -338,7 +356,7 @@ nav {
   min-width: 100%;
   height: 100vh;
   object-fit: cover;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 
@@ -350,12 +368,18 @@ nav {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.marketing h2 {
-  font-weight: 400;
+#marketing h2 {
+  font-style: italic;
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+
+.logo-sentence {
+  max-height: 3.25rem;
+  width: auto;
+  padding-bottom: 0.75rem;;
 }
 
 .left-side-icon {
@@ -364,18 +388,29 @@ nav {
 
 .right-side-text {
   padding-left: 60px;
+  padding-bottom: 2rem;
+}
+
+.right-side-text > img {
+  max-height: 2.5rem;
+  width: auto;
+  margin-bottom: 0.5rem;
+}
+
+.caption-float {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  color: #FFF;
 }
 
 /* Numbers
 ------------------------- */
 
 .numbers {
-  background: linear-gradient(0deg, rgba(255,255,255, 0.4), rgba(255,255,255, 0.4)), url('./img/bg-2-min.jpg') no-repeat center center fixed;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/bg-2-min.jpg') no-repeat center center fixed;
 }
 
 .card {
   border-radius: 0px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.25);
 }
 
 /* Featurettes
@@ -395,14 +430,27 @@ nav {
 }
 
 
-/* Numbers
+/* signup
 ------------------------- */
 
 .signup {
-  background: linear-gradient(0deg, rgba(255,255,255, 0.4), rgba(255,255,255, 0.4)), url('./img/bg-1-min.jpg') no-repeat center center fixed;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/bg-1-min.jpg') no-repeat center center fixed;
+}
+
+.logo-sentence--signup {
+  max-height: 4rem;
+  width: auto;
+  padding: 0.75rem;;
 }
 
 
+/* footer
+------------------------- */
+.logo-sentence--footer {
+  max-height: 6rem;
+  width: auto;
+  padding: 0.75rem;;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -427,7 +475,23 @@ nav {
     font-size:medium;
   }
 
+  .logo-sentence--carousel {
+    max-height: 2.5rem;
+    width: auto;
+  }
+
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: -100vw;
+  }
+
   .card {
     margin-bottom: 1rem;
+  }
+
+  .logo-sentence--footer {
+    max-height: 4rem;
+    width: auto;
   }
 }
